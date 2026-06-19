@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memórias Póstumas da Big Big - Meu Login :3</title>
+    <style>
+        /* Tentando deixar o site bonito, não apagar!! */
+        body {
+            background-color: #ffb3d9; /* Rosa chiclete que eu amo */
+            background-image: linear-gradient(135deg, #ffb3d9 0%, #ffdfba 50%, #ffffba 100%); /* Mistura de rosa, laranja e amarelo */
+            font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif; /* Minha fonte favorita! */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Caixa do login (aprendi a centralizar no YouTube!) */
+        .caixa-login {
+            background-color: #ffffff; /* Branco para destacar */
+            padding: 35px;
+            border-radius: 30px; /* Bordas bem redondinhas */
+            border: 5px solid #ff944d; /* Borda laranja bem grossa */
+            box-shadow: 10px 10px 0px #ffff4d; /* Sombra amarela estilo cartoon */
+            text-align: center;
+            max-width: 350px;
+            width: 85%;
+        }
+
+        /* Título do meu site */
+        h1 {
+            color: #ff4da6; /* Rosa choque */
+            font-size: 26px;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px #ffff4d; /* Sombra amarela no texto */
+        }
+
+        /* Subtítulo fofo */
+        .subtitulo {
+            color: #ff8033; /* Laranja */
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        /* O botão que faz a mágica acontecer */
+        .botao-entrar {
+            background-color: #ff944d; /* Laranja brilhante */
+            color: #ffffff; /* Texto branco */
+            border: 3px solid #ff4da6; /* Borda rosa no botão */
+            border-radius: 50px; /* Super redondo */
+            padding: 15px;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Comic Sans MS', sans-serif;
+            cursor: pointer;
+            box-shadow: 0px 5px #ff4da6; /* Efeito de botão 3D */
+            transition: 0.1s;
+        }
+
+        /* Efeito de quando passa o mouse (professor explicou na aula) */
+        .botao-entrar:hover {
+            background-color: #ffff4d; /* Fica amarelo */
+            color: #ff4da6; /* Texto fica rosa */
+            border-color: #ff944d; /* Borda muda para laranja */
+            box-shadow: 0px 5px #ff944d;
+        }
+
+        /* Efeito de clique */
+        .botao-entrar:active {
+            box-shadow: 0px 0px;
+            transform: translateY(5px); /* Botão afunda de verdade! */
+        }
+
+        /* Decoração no rodapé da caixinha */
+        .decoracao {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ff4da6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caixa-login">
+        <!-- Nome do site que me pediram -->
+        <h1>Guia de Flores</h1>
+        <div class="subtitulo">✨ O site mais perfeito da web ✨</div>
+        
+        <!-- Só precisa clicar aqui para entrar direto! -->
+        <button class="botao-entrar" onclick="entrarNoSite()">✨ CLIQUE AQUI PARA ENTRAR ✨</button>
+
+        <div class="decoracao">🌸 Estilizado por mim em 2026 🌸</div>
+    </div>
+
+    <script>
+        // Minha primeira função em JavaScript, que emoção!!
+        function entrarNoSite() {
+            alert('Meu Deus, funcionou! Entrando no site... 🚀💖');
+            // Próximo passo: aprender a abrir a outra página aqui!
+        }
+    </script>
+<script>
+    function entrarNoSite() {
+        // Se a página estiver na mesma pasta do seu computador:
+        window.location.href = "proxima_pagina.html"; 
+
+        // OU se quiser abrir um site da internet, use assim:
+        // window.location.href = "https://google.com";
+    }
+</script>
+
+</body>
+</html>
+
+
+
